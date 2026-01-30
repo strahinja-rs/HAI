@@ -1,0 +1,15 @@
+# Obsidian internals
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/
+.obsidian/core-plugins-migration.json
+.obsidian/hotkeys.json
+
+# System
+.DS_Store
+.Trash/
+*.log
+
+# Large files
+*.pdf
+*.epub

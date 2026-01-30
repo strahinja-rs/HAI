@@ -1,0 +1,4 @@
+.obsidian/
+.git/
+.DS_Store
+*.pdf
