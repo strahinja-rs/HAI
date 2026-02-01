@@ -19,9 +19,6 @@ summary:
 ## Key Aspects
 
 
-## Sources
--
-
 ## Connections
 - Related concepts:
 - Tensions with:
@@ -29,4 +26,4 @@ summary:
 ## Open Questions
 
 
-## My Understanding
+<!-- Custom sections encouraged — add as needed (e.g., analogies, case studies, the core claim). Template is minimum structure, not maximum. -->

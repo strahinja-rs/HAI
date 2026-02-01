@@ -7,7 +7,7 @@ author: human
 confidence: medium
 sources: []
 publish: false
-tags: [type/concept, domain/ai-safety, domain/technical]
+tags: [type/concept, domain/safety, domain/technical]
 summary: Understanding AI by examining the internals of neural networks — correlating outputs with activation patterns.
 ---
 

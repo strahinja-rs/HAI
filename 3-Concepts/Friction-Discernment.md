@@ -7,7 +7,7 @@ author: human
 confidence: high
 sources: []
 publish: false
-tags: [type/concept, domain/autonomy, domain/cognition, original]
+tags: [type/concept, domain/agency, domain/cognition, original]
 summary: The meta-skill of choosing where to maintain friction and where to eliminate it — choosing friction is choosing development.
 ---
 
@@ -31,16 +31,26 @@ We already do this with physical friction. No one *needs* to run or lift weights
 
 ## Key Aspects
 
-- Not just a UX design principle (cognitive forcing functions) — it's a life skill, a stance toward one's own development
+- Not just a UX design principle ([[Cognitive-Forcing-Functions]]) — it's a life skill, a stance toward one's own development
 - Operates at individual, organizational, and societal levels
 - Requires self-knowledge: you must know where you want to develop to choose friction wisely
 - Creates a dependency on [[Intent-Expression-Atrophy]]: if you've already atrophied in knowing what you want, you can't choose friction well
 
+## Friction Discernment vs. Cognitive Forcing Functions
+
+The key distinction is **perspective**:
+- **Friction Discernment** = individual meta-skill — I choose where to keep friction for myself
+- **[[Cognitive-Forcing-Functions]]** = design pattern — a designer imposes friction on other users
+
+They converge when the user is their own designer — e.g., building Guidance, where you design friction protocols for yourself. This convergence is where **ontological design** applies (Anne-Marie Willis, Heidegger): we design tools, and those tools design us back. Designing your own friction is designing who you become.
+
+In education, the student is NOT their own designer — the teacher/system decides where friction goes. This creates a tension between what the user wants (frictionless) and what's good for the user (forced thinking).
+
 ## Connections
 
-- Related concepts: [[Intent-Expression-Atrophy]] (intent expression as a specific friction worth keeping), [[User-Interpretability]] (explanation as productive friction), [[Interaction-Field]] (field quality depends on both participants maintaining capacity)
+- Related concepts: [[Cognitive-Forcing-Functions]] (system design counterpart), [[Intent-Expression-Atrophy]] (intent expression as a specific friction worth keeping), [[User-Interpretability]] (explanation as productive friction), [[Interaction-Field]] (field quality depends on both participants maintaining capacity), [[Adjustable-Autonomy]] (choosing autonomy level IS a friction discernment decision)
 - Historical precedent: Plato's *Phaedrus* on writing and memory; Postman's concerns about television and discourse
-- [Claude: connects to the cognitive forcing functions discussed in Section 4.3 of the HAI mapping paper — your contribution is elevating this from a UX design pattern to a fundamental human capacity for the AI age]
+- Ontological Design (Anne-Marie Willis, Heidegger) — designing friction that designs you back
 
 ## Open Questions
 

@@ -27,14 +27,38 @@ The human does:
 ## Session Start
 1. Read STATUS.md and latest Log entry
 2. **Check iCloud backlog:** Check `/Users/strahinja/Library/Mobile Documents/com~apple~CloudDocs/HAI Backlog/` for new captures. Move anything found into `1-Inbox/` and note it for processing.
-3. **Retrieval exercise:** Ask human to recall key concepts from previous session(s) without looking at notes. Human writes core insight in own words → Claude wraps in concept note (frontmatter, linking, file creation). If recall is fuzzy, revisit before creating note.
+3. **Retrieval exercise:** Status-based retrieval on concept notes (see Concept Note Lifecycle below). Not based on recency — based on concept status.
 4. Review recent progress and next actions
 
 ## Session End
 1. Update STATUS.md (Current State, Recent Progress, Next Actions)
 2. Update Log entry (observations, reading progress, open loops)
-3. Clean inbox: clear processed working artifacts (reading notes, screenshots), keep unprocessed sources
-4. Commit and push to GitHub
+3. **Create concept notes** from the session's observations (see Concept Note Lifecycle below)
+4. Clean inbox: clear processed working artifacts (reading notes, screenshots), keep unprocessed sources
+5. Commit and push to GitHub
+
+## Concept Note Lifecycle
+
+### Creation (end of reading session)
+At the end of a reading session, identify concept-worthy ideas from the log's Human Observations. For each:
+1. Human expresses the core insight in own words (even 2-3 sentences)
+2. Claude builds the note: frontmatter, structure, connections, file placement
+3. All new concept notes start at `status: seed`
+
+A concept note is worth creating if it has explanatory power (applies to multiple situations), a clear core claim, and connects to other concepts in the vault. If an idea isn't sharp enough yet, that means it needs work — not that it should be skipped. Create it as a seed.
+
+### Retrieval (start of each session)
+Retrieval exercises are **development checks**, not creation gates. They are designed around concept status:
+- **Seeds:** Always include in retrieval — these need to prove they've stuck. Ask human to recall the core insight without looking at notes.
+- **Growing:** Include periodically (spaced repetition) — less frequent than seeds.
+- **Evergreen:** Skip retrieval — these are settled understanding.
+
+Based on retrieval quality:
+- Clear, extended recall → evidence the concept is ready to move from seed → growing
+- Fuzzy recall → revisit the note together, engage with it again. The revisiting IS the learning.
+- No recall → the note still exists. Re-engage, don't delete.
+
+Retrieval is not a gate for whether a note *exists* — it's a gate for *status progression*.
 
 ## Status Tracking
 
@@ -54,6 +78,19 @@ Capture (1-Inbox) → Process (2-Sources) → Understand (3-Concepts) → Create
 - **Log/** — Research activity logs (dated entries)
 - **Maps/** — MOCs for navigation
 - **Meta/** — Templates, tags taxonomy, vault documentation
+
+## System Awareness
+
+Before creating or updating any note, Claude must check:
+- `Meta/Templates/` — for the relevant note type template (structure, required sections)
+- `Meta/TAGS.md` — for valid tags (don't invent new tags without discussing)
+- Existing notes in the target folder — for consistency with established patterns
+
+### Two Types of Concept Notes
+1. **Original concepts** — ideas that originated from human's thinking. Tagged `original`. Sources field is empty (or lists sources that *inspired* the thinking, not sources that *defined* the concept).
+2. **Literature concepts** — established ideas from the field. NOT tagged `original`. Sources field links to SRC- notes or cites the originating papers/authors.
+
+Both are valid concept notes. The `status` field tracks development level (seed → growing → evergreen), not origin.
 
 ## Conventions
 
@@ -99,9 +136,10 @@ When processing source material together:
 1. Human reads in Obsidian, dumps questions in `1-Inbox/Reading notes.md` (working surface)
 2. Bring question batches to Claude in terminal
 3. Claude answers — distinguish "clarification" (lives in your head) from "concept-worthy" (gets a note)
-4. Clear Q&As from reading notes after processing. Keep any original thoughts/reactions.
-5. Create concept notes AFTER finishing a reading, not during — wait to see what recurs
-6. Session log in `Log/YYYY-MM-DD.md` tracks: who, what we did, clarifications, concepts queued, reading progress
+4. Clear Q&As from reading notes after processing. Reading notes are **ephemeral scratch** — always cleared after discussion.
+5. **Original thinking and reactions go in the session log** under "Human Observations" — NOT in reading notes. The log is the persistent surface for thinking that emerged during reading.
+6. Create concept notes AFTER finishing a reading, not during — wait to see what recurs
+7. Session log in `Log/YYYY-MM-DD.md` tracks: who, what we did, clarifications, concepts queued, reading progress, human observations
 
 ## About the Human
 

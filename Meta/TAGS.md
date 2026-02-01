@@ -18,14 +18,19 @@
 - #type/log
 - #type/map
 
+## Origin Tags
+- #original - concept originated from human's own thinking (not from literature)
+
 ## Domain Tags (HAI-specific)
-- #domain/relating - emotional, attachment, companionship
+- #domain/relating - emotional, attachment, companionship, trust
 - #domain/cognition - thinking with, cognitive effects
 - #domain/creativity - creating with, generative collaboration
 - #domain/agency - delegation, autonomy, authorship
 - #domain/learning - skill development, education
 - #domain/design - interfaces, UX, product design
 - #domain/ethics - harms, risks, responsibilities
+- #domain/safety - AI safety research, interpretability, alignment
+- #domain/technical - implementation-level, architectural
 
 ## Evidence Tags
 - #evidence/empirical - based on research studies

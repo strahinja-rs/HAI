@@ -7,7 +7,7 @@ author: human
 confidence: medium
 sources: []
 publish: false
-tags: [type/concept, domain/ux, domain/trust]
+tags: [type/concept, domain/design, domain/relating]
 summary: The UX notion that AI output should include explanations of its own formation, enabling users to interpret and trust results.
 ---
 

@@ -7,7 +7,7 @@ author: human
 confidence: high
 sources: []
 publish: false
-tags: [type/concept, domain/cognition, domain/autonomy, original]
+tags: [type/concept, domain/cognition, domain/agency, original]
 summary: A positive feedback loop — as AI improves at reading intent, humans express less, and the capacity to express (and therefore know) intent atrophies.
 ---
 
