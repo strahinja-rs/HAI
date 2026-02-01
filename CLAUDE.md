@@ -33,6 +33,7 @@ The human does:
 1. Update STATUS.md (Current State, Recent Progress, Next Actions)
 2. Update Log entry (observations, reading progress, open loops)
 3. Clean inbox: clear processed working artifacts (reading notes, screenshots), keep unprocessed sources
+4. Commit and push to GitHub
 
 ## Status Tracking
 
