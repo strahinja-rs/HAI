@@ -1,0 +1,242 @@
+/* Nebula Theme - matches Ghostty terminal */
+
+.theme-dark {
+  /* Core colors */
+  --background-primary: #0f0a1a;
+  --background-primary-alt: #150f24;
+  --background-secondary: #1a1228;
+  --background-secondary-alt: #1f162f;
+  --background-modifier-border: #3c2a5c;
+
+  /* Text colors */
+  --text-normal: #f0e1d2;
+  --text-muted: #a89b8c;
+  --text-faint: #6d6058;
+
+  /* Accent - using cyan/teal from Nebula */
+  --text-accent: #06b7a7;
+  --text-accent-hover: #5cab8a;
+  --interactive-accent: #06b7a7;
+  --interactive-accent-hover: #5cab8a;
+
+  /* Selection */
+  --text-selection: #3c2a5c;
+  --text-highlight-bg: rgba(60, 42, 92, 0.5);
+
+  /* Links */
+  --link-color: #548b9b;
+  --link-color-hover: #67a0b0;
+  --link-external-color: #c77dba;
+  --link-external-color-hover: #e09dd6;
+
+  /* Headings */
+  --h1-color: #f0e1d2;
+  --h2-color: #e3c87b;
+  --h3-color: #5cab8a;
+  --h4-color: #548b9b;
+  --h5-color: #c77dba;
+  --h6-color: #06b7a7;
+
+  /* Code */
+  --code-normal: #e3c87b;
+  --code-background: #1a1228;
+
+  /* Tags */
+  --tag-color: #c77dba;
+  --tag-background: #2a1e3a;
+
+  /* Checkboxes */
+  --checkbox-color: #06b7a7;
+  --checkbox-color-hover: #5cab8a;
+
+  /* Scrollbar */
+  --scrollbar-thumb-bg: #3c2a5c;
+  --scrollbar-active-thumb-bg: #4e3654;
+
+  /* Cursor */
+  --cursor-color: #847084;
+}
+
+/* File explorer background */
+.theme-dark .nav-folder-title,
+.theme-dark .nav-file-title {
+  color: #f0e1d2;
+}
+
+.theme-dark .nav-file-title:hover,
+.theme-dark .nav-folder-title:hover {
+  background-color: #1f162f;
+}
+
+/* Active file highlight */
+.theme-dark .nav-file-title.is-active {
+  background-color: #3c2a5c;
+  color: #f0e1d2;
+}
+
+/* Blockquotes */
+.theme-dark blockquote {
+  border-left-color: #c77dba;
+  background-color: #150f24;
+}
+
+/* Bold and italic */
+.theme-dark strong {
+  color: #e3c87b;
+}
+
+.theme-dark em {
+  color: #c77dba;
+}
+
+/* Horizontal rule */
+.theme-dark hr {
+  border-color: #3c2a5c;
+}
+
+/* Sidebar titlebar / top area */
+.theme-dark .workspace-sidedock,
+.theme-dark .sidebar-toggle-button,
+.theme-dark .workspace-tab-header-container-inner,
+.theme-dark .mod-left-split .workspace-tab-header-container,
+.theme-dark .mod-right-split .workspace-tab-header-container,
+.theme-dark .titlebar,
+.theme-dark .titlebar-inner,
+.theme-dark .mod-left-split,
+.theme-dark .mod-right-split {
+  background-color: #0f0a1a !important;
+}
+
+/* Sidebar nav container */
+.theme-dark .nav-files-container,
+.theme-dark .workspace-leaf-content[data-type="file-explorer"],
+.theme-dark .workspace-leaf-content {
+  background-color: #0f0a1a !important;
+}
+
+/* Top buttons row in sidebar */
+.theme-dark .nav-buttons-container {
+  background-color: #0f0a1a !important;
+  border-bottom: 1px solid #1f162f;
+}
+
+/* Vault name / status bar at bottom */
+.theme-dark .status-bar,
+.theme-dark .workspace-drawer-vault-switcher,
+.theme-dark .workspace-drawer-vault-name,
+.theme-dark .sidebar-section-header,
+.theme-dark .workspace-drawer,
+.theme-dark .workspace-drawer-inner,
+.theme-dark .workspace-drawer-backdrop,
+.theme-dark .workspace-drawer-header,
+.theme-dark .workspace-sidedock-vault-profile,
+.theme-dark .side-dock-settings,
+.theme-dark .side-dock-actions,
+.theme-dark .workspace-tab-container,
+.theme-dark .mod-left-split .workspace-tabs,
+.theme-dark .mod-right-split .workspace-tabs {
+  background-color: #0f0a1a !important;
+}
+
+.theme-dark .status-bar {
+  border-top: 1px solid #1f162f;
+}
+
+/* Subtle borders between sections */
+.theme-dark .workspace-leaf {
+  border: 1px solid #1a1228;
+}
+
+.theme-dark .mod-left-split,
+.theme-dark .mod-right-split {
+  border-right: 1px solid #1f162f;
+  border-left: 1px solid #1f162f;
+}
+
+/* Separator between sidebar and content */
+.theme-dark .workspace-split.mod-horizontal > .workspace-leaf:not(:last-child) {
+  border-right: 1px solid #1f162f;
+}
+
+.theme-dark .workspace-split.mod-vertical > .workspace-leaf:not(:last-child) {
+  border-bottom: 1px solid #1f162f;
+}
+
+/* Tab header container */
+.theme-dark .workspace-tab-header-container {
+  background-color: #0f0a1a;
+  border-bottom: 1px solid #1a1228;
+}
+
+/* Individual tabs */
+.theme-dark .workspace-tab-header {
+  background-color: transparent;
+  color: #6d6058;
+}
+
+.theme-dark .workspace-tab-header:hover {
+  background-color: #1f162f;
+  color: #a89b8c;
+}
+
+/* Active tab */
+.theme-dark .workspace-tab-header.is-active {
+  background-color: #1a1228;
+  color: #f0e1d2;
+  border-bottom: 2px solid #06b7a7 !important;
+}
+
+/* Remove default indicator */
+.theme-dark .workspace-tab-header.is-active::after,
+.theme-dark .workspace-tab-header.is-active::before {
+  display: none;
+}
+
+/* Tab title */
+.theme-dark .workspace-tab-header-inner-title {
+  color: inherit;
+}
+
+/* Tab close button */
+.theme-dark .workspace-tab-header-inner-close-button {
+  color: #6d6058;
+}
+
+.theme-dark .workspace-tab-header-inner-close-button:hover {
+  color: #e36a5b;
+}
+
+/* Tab container new tab button */
+.theme-dark .workspace-tab-header-new-tab {
+  color: #6d6058;
+}
+
+.theme-dark .workspace-tab-header-new-tab:hover {
+  color: #06b7a7;
+  background-color: #1f162f;
+}
+
+/* Ribbon (leftmost icon strip) */
+.theme-dark .workspace-ribbon {
+  background-color: #0f0a1a !important;
+  border-right: 1px solid #1f162f;
+}
+
+.theme-dark .workspace-ribbon .sidebar-toggle-button,
+.theme-dark .workspace-ribbon .clickable-icon {
+  color: #6d6058;
+}
+
+.theme-dark .workspace-ribbon .clickable-icon:hover {
+  color: #06b7a7;
+}
+
+/* Sidebar font size */
+.nav-file-title,
+.nav-folder-title,
+.nav-file-title-content,
+.nav-folder-title-content,
+.tree-item-inner,
+.tree-item-self {
+  font-size: 12px !important;
+}

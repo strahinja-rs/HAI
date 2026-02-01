@@ -1,0 +1,16 @@
+{
+  "cssTheme": "Minimal",
+  "baseFontSize": 16,
+  "baseFontSizeAction": true,
+  "interfaceFontFamily": "",
+  "textFontFamily": "",
+  "monospaceFontFamily": "IBM Plex Mono, SF Mono, Menlo, monospace",
+  "theme": "system",
+  "enabledCssSnippets": [
+    "warm-backgrounds"
+  ],
+  "showViewHeader": true,
+  "translucency": true,
+  "accentColor": "#b35a1f",
+  "showRibbon": false
+}

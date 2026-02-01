@@ -1,4 +1,4 @@
-# HAII — Status
+# HAI — Status
 
 **Status:** Active
 **Started:** 2026-01-30

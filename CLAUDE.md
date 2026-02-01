@@ -1,4 +1,4 @@
-# HAII
+# HAI
 
 Human-AI Interaction research Obsidian vault and publishing pipeline.
 

@@ -1,0 +1,21 @@
+/* Warm backgrounds to match Ghostty Ember theme */
+
+/* Light mode */
+.theme-light {
+  --background-primary: #fef8f0;
+  --background-secondary: #f8f0e4;
+  --background-primary-alt: #f5edd8;
+  --background-secondary-alt: #f0e6d0;
+  --titlebar-background: #f8f0e4;
+  --titlebar-background-focused: #fef8f0;
+}
+
+/* Dark mode */
+.theme-dark {
+  --background-primary: #1a1210;
+  --background-secondary: #221a16;
+  --background-primary-alt: #2a1f1a;
+  --background-secondary-alt: #1e1510;
+  --titlebar-background: #221a16;
+  --titlebar-background-focused: #1a1210;
+}
