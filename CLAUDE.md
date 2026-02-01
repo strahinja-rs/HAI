@@ -26,8 +26,9 @@ The human does:
 
 ## Session Start
 1. Read STATUS.md and latest Log entry
-2. **Retrieval exercise:** Ask human to recall key concepts from previous session(s) without looking at notes. Human writes core insight in own words → Claude wraps in concept note (frontmatter, linking, file creation). If recall is fuzzy, revisit before creating note.
-3. Review recent progress and next actions
+2. **Check iCloud backlog:** Check `/Users/strahinja/Library/Mobile Documents/com~apple~CloudDocs/HAI Backlog/` for new captures. Move anything found into `1-Inbox/` and note it for processing.
+3. **Retrieval exercise:** Ask human to recall key concepts from previous session(s) without looking at notes. Human writes core insight in own words → Claude wraps in concept note (frontmatter, linking, file creation). If recall is fuzzy, revisit before creating note.
+4. Review recent progress and next actions
 
 ## Session End
 1. Update STATUS.md (Current State, Recent Progress, Next Actions)
@@ -117,6 +118,7 @@ When processing source material together:
 Projects and experiences to test concepts against:
 - **MatkexAI** (`~/Projects/MatkexAI/`) — AI-powered decision support for luxury goods parallel trading. Maps to the Analytic Quadrant (AI-Assisted Decision Making). Live example of: surfacing recommendations, contestability challenges, over-reliance risk, "true interactivity" gap.
 - **Evoke** (`~/Exo/2-Projects/Casper-Agents/Evoke/`) — AI education workshop for a marketing agency. Maps to the Creative Quadrant (Co-Creativity). Live example of: identity threats in creative professionals, prompt literacy training, loop distance calibration per role (creative vs account vs strategy).
+- **Guidance** (`~/Projects/myProtocols/`) — iOS practice timer for personal transformation. File-first architecture: AI authors structured behavior as Markdown files, phone renders and executes them, state writes back. Live example of: [[Friction-Discernment]] (designed friction as a product), [[Interaction-Field]] (file as membrane between conversation mode and interaction mode), AI-native app architecture (file-first vision — see `archive/FILE-FIRST-VISION.md`), performable files vs readable files.
 
 ## Learning Channels
 

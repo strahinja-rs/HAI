@@ -9,19 +9,16 @@ Build deep expertise in Human-AI Interaction and produce published work from it.
 
 ## Current State
 
-Session 2 complete — First reading session done. Established reading workflow, generated multiple original observations, identified conference opportunities. Strong start.
+Session 3 complete — First concept notes created. Retrieval exercise confirmed strong retention of Session 2 observations. Five concept notes now in 3-Concepts/. Guidance app introduced as real-world anchor.
 
 ## Recent Progress
 
-- Project initialized
-- Full vault structure created (Inbox, Sources, Concepts, Analysis, Outputs, Log, Maps, Meta)
-- CLAUDE.md written with collaboration philosophy and conventions
-- Templates created (Source, Concept, Analysis, Output)
-- Tags taxonomy defined
-- Starter MOCs created (Main, Modes of Contact)
-- 5 source documents captured in Inbox
-- Reading session workflow established (reading notes → question batches → concept creation after reading)
-- Session logging established in Log/
+- Project initialized, vault structure, CLAUDE.md, templates, tags, MOCs
+- Reading session workflow established
+- 5 concept notes created: Mechanistic-Interpretability, User-Interpretability, Intent-Expression-Atrophy, Friction-Discernment, Interaction-Field
+- Retrieval exercise protocol tested and working
+- Guidance app added as real-world anchor (friction discernment, interaction field, file-first AI-native architecture)
+- Process observation: voice dictation as higher-fidelity channel for first expression
 
 ## In Progress
 
@@ -31,10 +28,10 @@ Session 2 complete — First reading session done. Established reading workflow,
 ## Next Actions
 
 - [ ] Continue reading Mapping the HAI Field from Section 3
-- [ ] Create concept notes: Interpretability Layers, Friction Discernment, Intent Expression Atrophy, Interaction Field
 - [ ] Conference decisions by Feb 10-11 (CHI workshops, IUI)
 - [ ] Read Interaction Design synthesis
 - [ ] Process both into SRC- source notes
+- [ ] Queued concept candidates: AI Whisperers, Stochastic Epistemology
 
 ## Scope
 
