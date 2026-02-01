@@ -7,7 +7,7 @@ author: human
 confidence: medium
 sources: []
 publish: false
-tags: [type/concept, domain/design, original]
+tags: [type/concept, domain/design]
 summary: Any interface where two parties take alternating turns — the broader category that includes chat, button selection, search, and other turn-based patterns.
 ---
 
