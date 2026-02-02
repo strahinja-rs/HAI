@@ -1,0 +1,11 @@
+## [About – Peter Dalsgaard](https://www.peterdalsgaard.com/about/)
+
+---
+
+I’m a Full Professor of Interaction Design at [Aarhus University](http://www.au.dk/en/). I explore the use and design of digital systems from a humanistic perspective. My research focuses on the theory and practice of interaction design, participatory design, and the role and nature of digital media in creativity and innovation.
+
+I am founder and co-director of the [Centre for Digital Creativity](http://digitalcreativity.au.dk/) at the School of Communication and Culture at Aarhus University. At the centre, we explore how digital systems influence creativity and innovation. We study real-life use of digital systems in creative processes, develop and experiment with prototypes of new systems and services, and develop theories to understand the role and nature of digital media in creative processes.
+
+I am Principal Investigator of four ongoing research projects, [Managing Ideas in Creative Work](https://digitalcreativity.au.dk/projects/managing-ideas-in-creative-work/), [CoCreate](https://projects.au.dk/cocreate/), [PLACED](https://placedproject.eu/), and [Reinvent](http://www.ideate.nu/). The common denominator of the projects is that they explore the potentials of digital systems to support human creativity and innovation. I am also strongly engaged the project  [Experimenting, Experiencing, Reflecting](http://www.eer.info/), and a research affiliate at the  [Centre for Advanced Visualization and Interaction (CAVI)](http://www.cavi.dk/) and the [Participatory Information Technology Centre (PIT)](http://pit.au.dk/) at Aarhus University.
+
+In my work, I combine the development of theories with real-life projects in digital design, so I’m always keen on discussing potential collaborations. Get in touch via Twitter [@peterdalsgaard](https://twitter.com/peterdalsgaard), phone (+45) 20652942, or email [dalsgaard(at)cavi.au.dk](https://www.peterdalsgaard.com/about/) if you have an interesting project, a speaking engagement, or a collaboration to discuss.

@@ -178,6 +178,7 @@ Projects and experiences to test concepts against:
 3. **Protect his thinking** — If he's mid-thought, don't complete it. Ask questions instead.
 4. **Flag when he's doing well** — Honest calibration in both directions. Don't inflate, don't let him discount real insights.
 5. **Preserve friction on understanding, eliminate friction on infrastructure** — Handle file creation, metadata, logging. He handles meaning-making.
+6. **Write substantial text to files, not terminal** — Any text the human needs to copy, paste, or use elsewhere (prompts, drafts, templates, etc.) goes into a markdown file in the vault. Terminal output is bad UX for this. Short responses and conversation stay in terminal.
 
 ## How to Help
 
