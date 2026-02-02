@@ -47,6 +47,8 @@ At the end of a reading session, identify concept-worthy ideas from the log's Hu
 
 A concept note is worth creating if it has explanatory power (applies to multiple situations), a clear core claim, and connects to other concepts in the vault. If an idea isn't sharp enough yet, that means it needs work — not that it should be skipped. Create it as a seed.
 
+**Err on the side of creating notes.** Both original concepts and literature concepts are valid. A literature concept that connects to existing vault ideas or to the human's experience is worth a note — the `original` tag handles the distinction. Seeds are cheap; the retrieval process handles quality control. Don't gate creation on certainty — that's what the `confidence` field is for.
+
 ### Retrieval (start of each session)
 Retrieval exercises are **development checks**, not creation gates. They are designed around concept status:
 - **Seeds:** Always include in retrieval — these need to prove they've stuck. Ask human to recall the core insight without looking at notes.
@@ -122,6 +124,8 @@ publish: false  # [true, false] - ready for public?
 summary: # 1-2 sentence overview
 ---
 ```
+
+> For precise definitions, update rules, and per-note-type specifics for each field, see `Meta/Field-Definitions.md`.
 
 ### Public Publishing
 This vault may become public via Obsidian Publish. Every note has a `publish` field in frontmatter:

@@ -1,3 +1,55 @@
+---
+type: source
+status: evergreen
+created: 2026-02-01
+modified: 2026-02-02
+author: human
+confidence: medium
+sources: []
+publish: false
+tags: [type/source, domain/design, domain/cognition, domain/agency]
+summary: Gemini Deep Research landscape map of the HAI field (2020-2026). Covers field structure, institutions, interaction modes, LLM inflection, agentic AI, new methods, practitioner tools, key debates, and key thinkers. The source that seeded 13 initial concept notes.
+---
+
+# Mapping the Field of Human-AI Interaction (2020-2026)
+
+## Metadata
+- **Authors:** Gemini Deep Research (prompted by human)
+- **Year:** 2026
+- **Type:** AI research report
+- **Link:** Local (generated via Gemini Deep Research)
+
+## Key Findings
+- HAI has three epochs: Explainability Imperative (2020-2022), Generative Inflection (2023-2024), Agentic Turn (2025-2026)
+- Four quadrants: Analytic (decision-making), Creative (co-creativity), Management (agentic delegation), Relational (social/embodied)
+- Interaction modes evolving from Chat → Generative UI → Ambient AI → Agentic delegation
+- Cognitive Forcing Functions as counter-movement to frictionless design
+- Anthropomorphism debate: tool vs. partner, transparent machine-ness vs. social cues
+- Adjustable autonomy as core design challenge for agentic systems
+- Grey literature (arXiv, blogs) as primary scientific currency due to field velocity
+
+## Key Concepts Seeded From This Source
+- [[Friction-Discernment]], [[Interaction-Field]], [[AI-Whisperers]], [[Cognitive-Forcing-Functions]], [[Adjustable-Autonomy]], [[Chat-as-Interaction-Pattern]], [[Turn-Based-Interface]], [[Anthropomorphism-in-HAI]], [[Warm-Transparency]], [[User-Interpretability]], [[Mechanistic-Interpretability]], [[Intent-Expression-Atrophy]], [[Stochastic-Epistemology]]
+
+## Relevance to HAI
+- This was the first major source read in the vault — the field map that oriented the entire research direction
+- Directly produced 13 concept notes through human observations during reading (Sessions 3-4)
+- Identified phenomenological inquiry as the human's natural research lens
+- Surfaced the key debates (anthropomorphism, control vs. autonomy, chat vs. GUI) that structure the field
+
+## Questions/Critiques
+- Gemini breadth-oriented: good landscape, thin on any single topic
+- Some sources are snippet-level (the Gemini snippet trap)
+- Heavy on 2025-2026 institutional/corporate framing, lighter on philosophical foundations
+- Source triage of the 73 citations not yet done
+
+## Connections
+- Related: [[SRC-Gemini-2026-Qualitative-Research-Frameworks-HAI]] (methodology companion), all 13 concept notes listed above
+- Key thinkers surfaced: Shneiderman (human-centered AI), Maes/Ishii (MIT AHA), Fei-Fei Li (spatial intelligence), Anthropic societal impacts team, Buçinca (cognitive forcing functions)
+
+---
+
+## Full Report
 # **MAPPING THE FIELD OF HUMAN-AI INTERACTION (2020–2026): PARADIGMS, PRACTICES, AND THE AGENTIC TURN**
 
 ## **Executive Summary**

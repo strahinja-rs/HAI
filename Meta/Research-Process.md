@@ -239,4 +239,59 @@ Mitigations:
 - When a concept feels important, look for who disagrees with it
 - Track confidence levels on concept notes
 - Periodically ask: "What would a trained researcher do differently here?"
-- Consider a targeted research prompt on research methodology itself
+- Methodology research completed — see Qualitative Research Methods section below and [[SRC-Gemini-2026-Qualitative-Research-Frameworks-HAI]]
+
+---
+
+## Qualitative Research Methods
+
+Based on the methodology research report ([[SRC-Gemini-2026-Qualitative-Research-Frameworks-HAI]]). This section provides reference material for choosing and executing qualitative research methods in HAI.
+
+### Methods Most Relevant to This Research
+
+Three methods align with the practitioner-researcher, first-person, design-oriented approach of this vault:
+
+1. **Phenomenology** — studying the lived experience of interacting with AI. The human's natural lens. Core question: "What is it like to be inside this?"
+2. **Autoethnography / Autobiographical Design** — the researcher's own experience as data. The vault logs and Guidance development process are already autoethnographic data. Core question: "How does my own identity and process shape this interaction?"
+3. **Research Through Design (RtD)** — the act of designing generates knowledge. Guidance and product experiments are RtD if documented with research intent. Core question: "What if we designed X differently?"
+
+These can be combined. The Guidance project is simultaneously autobiographical design (living with a self-built system) and RtD (the design process generates knowledge about human-AI interaction patterns).
+
+### Methodological Selection Matrix
+
+| Research Question Type | Method | Data Source | Validity Criterion | Output |
+|---|---|---|---|---|
+| "What is it like to experience X?" | Phenomenology | Interviews, first-person reflection | Resonance/Fidelity | Thematic description of essence |
+| "How does my identity shape this?" | Autoethnography | Diaries, logs, self-observation | Reflexivity | Narrative arc, critical reflection |
+| "What is the underlying process?" | Grounded Theory | Interviews, observation, documents | Saturation | Theoretical model or taxonomy |
+| "How can we solve this ethically?" | Action Research / PD | Workshops, co-design | Impact/Democracy | Intervention + reflection |
+| "What if we designed X differently?" | Research Through Design | Prototypes, design logs | Generativity | Annotated portfolio, Strong Concept |
+| "What is this group's culture?" | Ethnography | Participant observation, field notes | Thick Description | Cultural monograph, vignettes |
+| "What happened in this deployment?" | Case Study | Mixed methods | Triangulation | Lessons learned, failure analysis |
+
+### Trustworthiness Criteria (Guba & Lincoln)
+
+The validity framework for qualitative research. Rigor is not statistical significance — it's trustworthiness.
+
+1. **Credibility** (internal validity)
+   - *Triangulation:* Multiple data sources (e.g., logs + interviews + observation)
+   - *Member checking:* Return findings to participants for verification
+   - *Prolonged engagement:* Spend enough time to overcome novelty effects
+
+2. **Transferability** (external validity)
+   - *Thick description:* Enough context that others can judge applicability to their own situation
+   - *Purposive sampling:* Select information-rich cases, not convenient ones
+
+3. **Dependability** (reliability)
+   - *Audit trail:* Log all methodological decisions and why they changed
+   - *Codebooks:* If working in a team, establish inter-coder agreement
+
+4. **Confirmability** (objectivity)
+   - *Reflexivity:* State your biases explicitly. A practitioner studying their own product must disclose this and discuss mitigation.
+
+### Common Pitfalls
+
+- **The Generalizability Trap:** Apologizing for small sample sizes. Qualitative research aims for conceptual depth, not statistical significance.
+- **Methodolatry:** Obsessing over correct method execution at the expense of genuine insight. Method is a scaffold, not a cage.
+- **Quote Salad:** Pages of participant quotes with no analysis. Theoretical abstraction is required to move from journalism to research.
+- **Anthropomorphism Bias:** Uncritically adopting user language ("The AI wanted to help me") without analyzing the projection. Distinguish system output from user attribution of intent.

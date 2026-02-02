@@ -9,31 +9,39 @@ Build deep expertise in Human-AI Interaction and produce published work from it.
 
 ## Current State
 
-Session 5 complete — Research process formalized and documented. Evaluated Gemini Deep Research as a tool (ran it on itself), compared Gemini vs Claude research outputs, developed the full research workflow (Meta/Research-Process.md). Methodology research launched — output received, queued for next session. 13 concept notes in vault, no new concepts this session (process-focused session).
+Session 6 complete — Read and processed Gemini methodology report (qualitative research frameworks for HAI). Created 3 new concept notes (Enactivism, Augmentation-Modes, Autobiographical-Design), bringing vault to 16 concepts (all seeds). Defined all frontmatter fields precisely (Meta/Field-Definitions.md). Updated Research-Process.md with qualitative methods section. Created 2 source notes (methodology report + field map). Major inbox clearing — 18 items processed, 9 remaining. Retrieval exercise on 4 seeds — all consolidating.
 
 ## Recent Progress
 
-- Formalized the HAI research process (`Meta/Research-Process.md`) — question types, tool roles, meta-prompt strategy, reading/processing workflow
-- Evaluated Gemini Deep Research in depth: mechanism, control surfaces, limitations (snippet trap), comparison with Claude Research
-- Compared Gemini vs Claude research outputs (`1-Inbox/Comparison-Gemini-vs-Claude-Research.md`)
-- Launched methodology research (qualitative/practice-based methods for practitioner-researchers)
-- Surfaced micro-phenomenology and Peter Dalsgaard (Aarhus) as research methodology leads
-- Updated CLAUDE.md: interaction policy #6 (write substantial text to files)
-- Identified phenomenological inquiry as natural research lens
+- Read and processed methodology research report → source note `SRC-Gemini-2026-Qualitative-Research-Frameworks-HAI.md`
+- Created source note for field map: `SRC-Gemini-2026-Mapping-Human-AI-Interaction-Field.md`
+- Created 3 concept notes: Enactivism, Augmentation-Modes (original), Autobiographical-Design
+- Defined all frontmatter fields precisely (`Meta/Field-Definitions.md`)
+- Updated `Meta/Research-Process.md` with qualitative methods section (decision matrix, trustworthiness criteria, pitfalls)
+- Retrieval exercise on 4 seeds: Friction-Discernment, Stochastic-Epistemology, Turn-Based-Interface, Warm-Transparency — all consolidating
+- Cleared 18 items from inbox
+- Registered for EPIC2026 Kickoff (Feb 4, online)
+- Updated CLAUDE.md: field definitions reference, less conservative concept note creation policy
 
 ## In Progress
 
 - [x] Reading: "Mapping the Human-AI Interaction Field" — **COMPLETE**
+- [x] Reading: Methodology research report — **COMPLETE**
 - [ ] Queued: "Interaction Design in Human-AI Interaction" (Claude research)
-- [ ] Methodology research report — received, not yet read
+- [ ] Source triage: 56 citations from methodology report (deferred)
 
 ## Next Actions
 
-- [ ] Read and process methodology research report (priority — next session)
-- [ ] Retrieval exercise on 13 seed concepts (skipped Session 5)
-- [ ] Read "Interaction Design in Human-AI Interaction" synthesis
+- [ ] Read "Interaction Design in Human-AI Interaction" synthesis (in inbox)
+- [ ] Process remaining inbox research syntheses (3 Claude outputs)
+- [ ] Source triage on methodology report citations
+- [ ] Retrieval exercise on 16 seed concepts
+- [ ] Feb 3 — AI Design Hackathon (Novi Sad) — attend as observer
+- [ ] Feb 4 — EPIC2026 Kickoff (online, 5:30-7pm CET)
+- [ ] Feb 12 — CHI Workshop position paper submission deadline
+- [ ] Feb 13 — IUI Cyprus early bird registration deadline
 - [ ] Find and read micro-phenomenology paper (Dalsgaard et al.)
-- [ ] Conference decisions by Feb 10-11 (CHI workshops, IUI)
+- [ ] Read foundational texts: Varela (*The Embodied Mind*), Dourish (*Where the Action Is*), Merleau-Ponty, Koskinen, Charmaz, Dourish & Bell
 - [ ] Read Microsoft HAX Toolkit and Google PAIR Guidebook
 - [ ] Watch: Arrival (2016) — connects to AI Whisperers concept
 
